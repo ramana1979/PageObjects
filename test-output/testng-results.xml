@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="99" started-at="2019-11-28T05:04:21Z" finished-at="2019-11-28T05:04:21Z">
+  <suite name="Default suite" duration-ms="40" started-at="2019-12-05T05:10:22Z" finished-at="2019-12-05T05:10:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="99" started-at="2019-11-28T05:04:21Z" finished-at="2019-11-28T05:04:21Z">
-      <class name="com.test.testcases.HomeTest">
-        <test-method status="PASS" signature="homeTest()[pri:0, instance:com.test.testcases.HomeTest@7823a2f9]" name="homeTest" duration-ms="2" started-at="2019-11-28T05:04:21Z" finished-at="2019-11-28T05:04:21Z">
+    <test name="Default test" duration-ms="40" started-at="2019-12-05T05:10:22Z" finished-at="2019-12-05T05:10:23Z">
+      <class name="com.test.testcases.SearchPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.testcases.SearchPage@8bd1b6a]" name="setUp" is-config="true" duration-ms="4" started-at="2019-12-05T05:10:23Z" finished-at="2019-12-05T05:10:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homeTest -->
-      </class> <!-- com.test.testcases.HomeTest -->
-      <class name="com.test.testcases.LoginTest">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.test.testcases.LoginTest@1b604f19]" name="loginTest" duration-ms="16" started-at="2019-11-28T05:04:21Z" finished-at="2019-11-28T05:04:21Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.test.testcases.SearchPage@8bd1b6a]" name="test" duration-ms="12" started-at="2019-12-05T05:10:23Z" finished-at="2019-12-05T05:10:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.test.testcases.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.testcases.SearchPage@8bd1b6a]" name="endTest" is-config="true" duration-ms="4" started-at="2019-12-05T05:10:23Z" finished-at="2019-12-05T05:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.testcases.SearchPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
